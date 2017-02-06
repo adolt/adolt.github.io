@@ -1,3 +1,3 @@
 # github page
-[adolt.xyz](https://www.adolt.xyz)
+[adolt.xyz](http://www.adolt.xyz)
 
