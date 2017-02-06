@@ -3,11 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Adolt</title>
+    <link rel="stylesheet" href="./reveal/css/reveal.css">
+    <link rel="stylesheet" href="./reveal/css/theme/serif.css">
+
 </head>
 
 <body>
-    <script type="text/javascript" src="http://git.hust.cc/canvas-nest.js/src/canvas-nest.js"></script>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <script type="text/template">
+                    ## Adolt
+                    A dolt is learning to be an adult.
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ## Blog
+                    A personal [blog](http://adolt-blog.herokuapp.com/) using nodejs.
+                </script>
+            </section>
+        </div>
+    </div>
+    <script src="./js/canvas-nest.js"></script>
+    <script src="./reveal/lib/js/head.min.js"></script>
+    <script src="./reveal/js/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            history: true,
+
+            dependencies: [{
+                src: 'reveal/plugin/markdown/marked.js'
+            }, {
+                src: 'reveal/plugin/markdown/markdown.js'
+            }, {
+                src: 'revealplugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'reveal/plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+    </script>
 </body>
 
 </html>
