@@ -1,3 +1,3 @@
-# github page
-[adolt.xyz](http://www.adolt.xyz)
+# Website
 
+## [https://notbored.cc](https://notbored.cc)
